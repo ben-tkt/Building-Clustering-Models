@@ -6,7 +6,7 @@
 * Serve as reference material for anyone trying to learn how to use Machine Learning Models to performe clustering using Scikitlearn. 
 
 ## 📓 Project Description 
-* **Objective** - To understand the data and build a regression model for Shinkansen company to predict if a Shinkansen passenger will be satisfied with their travel experience.
+* **Objective** - To understand the unstructured data by reduce its dimensionality and clustering them using the most suitable clustering algorithm.
 * **Problem Statement** - Perform EDA on data, build different clustering models, compare their performance metrics.
 * **Data Source** - Provided by Great Learning as materials for the project. [Can be found in repository]
 
