@@ -1,5 +1,5 @@
-# Building Clustering Models to study unstructured data
-This project is in response to the Titanic Machine Learning Project from [Kaggle](https://www.kaggle.com/competitions/titanic/overview). I highly recommend anyone who had just started out with machine learning to try out the project. My codes are well commented and structured, so it should be easy to follow my thought patterns as I work through the project.
+# Building and Tuning Deep Learning Models in Titanic
+This project is in response to the Titanic Machine Learning Project from [Kaggle](https://www.kaggle.com/competitions/titanic/overview). I highly recommend anyone who had just started out with machine learning to try out the project. My codes are well commented and structured, so it should be easy to follow my thought patterns as I work through the project. I achieved an accuracy score of 82% on validation data, with 77% accuracy on unseen data.
 
 ## 🎯 My Objectives
 * To share my work
@@ -48,6 +48,8 @@ This project is in response to the Titanic Machine Learning Project from [Kaggle
  * Keras Tuner
  * Grid Search CV
  * Random Search CV
+* Conclusion from EDA
+* Recommendations on how to further improve the model
 
 ## 📓 Usage Guide
 
