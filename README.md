@@ -1,4 +1,5 @@
 # Building Clustering Models to study unstructured data
+This project is in response to the Titanic Machine Learning Project from [Kaggle](https://www.kaggle.com/competitions/titanic/overview). I highly recommend anyone who had just started out with machine learning to try out the project. My codes are well commented and structured, so it should be easy to follow my thought patterns as I work through the project.
 
 ## 🎯 My Objectives
 * To share my work
@@ -8,52 +9,58 @@
 ## 📓 Project Description 
 * **Objective** - To understand the unstructured data by reduce its dimensionality and clustering them using the most suitable clustering algorithm.
 * **Problem Statement** - Perform EDA on data, build different clustering models, compare their performance metrics.
-* **Data Source** - Provided by Great Learning as materials for the project. [Can be found in repository]
+* **Data Source** - Provided by Kaggle from the project [page](https://www.kaggle.com/competitions/titanic/data)
 
 ## 📓 Data Dictionary
-* Player_Name: Name of the player.
-* Club: Club in which the player plays.
-* Position: Position in which the player plays.
-* Goals_Scored: Number of goals scored by the player in the previous season.
-* Assists: Number of passes made by the player leading to goals in the previous season.
-* Total_Points: Total number of fantasy points scored by the player in the previous season.
-* Minutes: Number of minutes played by the player in the previous season.
-* Goals_Conceded: Number of goals conceded by the player in the previous season.
-* Creativity: A score, computed using a range of stats, that assesses player performance in terms of producing goalscoring opportunities for other players.
-* Influence: A score, computed using a range of stats, that evaluates a player's impact on a match, taking into account actions that could directly or indirectly affect the match outcome.
-* Threat: A score, computed using a range of stats, that gauges players who are most likely to score goals.
-* Bonus: Total bonus points received. The three best performing players in each match receive additional bonus points based on a score computed using a range of stats. 3 points are awarded to the highest scoring player, 2 to the second best, and 1 to the third.
-* Clean_Sheets: Number of matches without conceding a goal in the previous season.
+- Survived - Survival (0 = No, 1 = Yes)
+- Pclass - Ticket class (1 = 1st, 2 = 2nd, 3 = 3rd)
+- Name - Name of passenger
+- Sex - Male or female
+- Age - Age of passenger
+- SibSp - # of siblings/spouses aboard the Titanic
+- Parch - # of parents/children aboard the TItanic
+- Ticket - Ticket number
+- Fare - Passenger Fare
+- Cabin - Cabin Number
+- Embarked - Port of Embarkation (C = Cherbourg, Q = Queenstown, S = Southampton)
 
 ## 📓Key Features Used
-* Libraries used - Numpy, Pandas, Scipy, Matplotlib, Seaborn, Scikitlearn
+* Libraries used - Numpy, Pandas, Scipy, Matplotlib, Seaborn, Scikitlearn, Tensorflow, Keras, Dask 
 * Software used - Python programming, Google Colab
 
 ## 📓 Techniques used
 * **Cleaning data** from irrelevant data, missing data, duplicated data and outliers
 * **Data visualization** using seaborn plots
 * **Exploratory Data Analysis** (Univariate and multivariate)
-* **Data Preprocessing** by standardizing and scaling data before training algorithms
-* **Dimensionality Reduction** using Principle Component Analysis (PCA)
-* **Building Clustering Algorithms**
-  * K-Means Clustering
-  * K-Medoids Clustering
-  * Heirarchical/Agglomerative Clustering
-  * Gaussian Mixture Modelling
-  * Density-based Clustering 
-* **Clustering Technique Evaluation** using Silhouette Score
+* **Data Preprocessing** by **Feature Engineering**, one-hot encoding, standardizing and scaling data before training algorithms
+* **Building Deep Learning Model** using KerasClassifiers in a sequential model
+* **Hyperparameter Tuning**
+ * Number of layers and neurons
+ * Number of epochs
+ * Optimizer type
+ * Learning Rate
+ * Batch Size
+ * Dropout Rate
+ * Batch Normalization epsilon and momentum
+ * AUC-ROC threshold
+* **Hyperparameter Tuners**
+ * Dask Tuner
+ * Keras Tuner
+ * Grid Search CV
+ * Random Search CV
 
 ## 📓 Usage Guide
-**For Recruiters**
-1. Open up the .ipynb or .HTML file to understand into details what was done in the project.
-2. Kindly contact me if you want to know more 😃
 
 **For Learners**
-1. Download the dataset from the respository and the .ipynb file.
-2. Open the .ipynb file using Google Colaboratory or jupyter notebook.
+1. Download the dataset from the linked sources, and the .ipynb file from the repository.
+2. Open the .ipynb file using Google Colaboratory or Jupyter notebook.
 3. Read through the project context, objective, data description and dictionary.
 4. Try and run the code in the .ipynb notebook, cell by cell. As the codes are well-commented, try to understand what each line of code does.
-5. Use my code as a reference if you're stucked [In this particular project, I have had the privilege of learning from Seyed Mohammad Parvasi and his amazing coding practices.]
+5. Use my code as a reference if you're stucked, or kindly contact me to knwo more 😃
+
+**For Non-technical Learners**
+1. Open up the .ipynb or .HTML file to understand into details what was done in the project.
+2. Kindly contact me if you want to know more 😃
 
 **Thanks for reaching the end!**
 
